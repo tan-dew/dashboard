@@ -1,0 +1,19 @@
+.listing {
+  display: table;
+  margin: auto;
+}
+
+.row {
+  display: table-row;
+  padding: 2px;
+}
+
+.col {
+  display: table-cell;
+  padding: 3px;
+  border: aqua solid 1px;
+}
+
+.row:nth-child(odd) {
+  background: aquamarine;
+}
